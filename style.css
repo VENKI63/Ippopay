@@ -8,7 +8,7 @@
   width: 100%;
   height: 80vh;
   background:white; 
-  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+
 
 }
 .button{
@@ -20,8 +20,16 @@
 
 
 nav{
-  width: 100%; height: 100px;
-  display: flex; color: darkblue;
+  max-width: 1680px;
+  padding-right: 2.4rem;
+  padding-left: 2.4rem;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9.6rem;
   
 }
 .nav-btn li{
@@ -71,9 +79,9 @@ nav{
 .call-btn{
   background: #0B4A94;
     font-weight: 500;
-    font-size: 1.6rem;
+    font-size: large;
     cursor: pointer;
-    color: #fff;
+    color: white;
     border: 1px solid #0B4A94;
     padding: 6px 15px 6px 15px;
     border-radius: 2px;
@@ -88,13 +96,24 @@ nav{
     margin-right: auto;
 }
 .logo{
-  width:20%;
-  height: 100px;
+  color: #337ab7;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  outline: 0!important;
+  box-sizing: border-box;
+  
+  
 }
 
-.logo h1{
-  line-height: 100px;
-  padding-left: 50px;
+.logo img{
+  float: left;
+  height: 24px;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  outline: 0 !important;;
+  box-sizing: border-box;
 }
 
 
@@ -128,50 +147,91 @@ section{ display: flex;  }
 
 .leftside img{  
   width: 500px;
-  height: 300px;
+  height: 400px;
   vertical-align: bottom;
-  max-width: none;}
-
-.rightside{ 
-  width: 77%;
-   height: 200px; 
-   color: white; 
-   text-align:left;
-   margin-top: 80px; 
-   padding: 40px;}
-
-.rightside h1{ 
-  text-align:left;
-  color:black;
-  font-size: 40px;
-  font-weight: 900;
-  text-transform: uppercase; } 
-
-.rightside p {  
-  float:right;
-  width: 100%;
-  font: weight 500px;;
-  font-size: 30px;
-  color: black;
-  margin-bottom: 30px;
+  max-width: none;
 }
+.banner_key-height{
+  float: left;
+  width: 100%;
+  font-weight: 300;
+  font-size: 20px;
+  color: #606060;
+  margin-bottom: 10px!important;
+  outline: 0!important;
+  box-sizing: border-box;
 
-
+}
+.banner_mini_bold{
+  float: left;
+  width: 100%;
+  font-weight: 300;
+  font-size: 44px;
+  color: #303030;
+  margin-bottom: 10px;
+  outline: 0!important;
+  box-sizing: border-box;
+}
+.banner_bold_tittle{
+  float: left;
+  width: 100%;
+  font-weight: 700;
+  font-size: 44px;
+  color: #303030;
+  margin-bottom: 60px;
+  outline: 0!important;
+  box-sizing: border-box;
+}
+.api_key_btn span{
+  float: left;
+  outline: 0!important;
+  color:#0B4A94;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
 .get-started-text{
+  float: left;
+  width: calc(100% - 150px);
+  padding-left: 20px;
+  margin: 0 0 70px;
+  outline: 0!important;
+  box-sizing: border-box;
+
+}
+.question_tittle{
   float: left;
   width: 100%;
   font-weight: 700;
   font-size: 16px;
   color: #303030;
+  outline: 0!important;
+  box-sizing: border-box;
 }
-.contact-sales-btn{
+.question_con{
   float: left;
   width: 100%;
   color: #606060;
   font-weight: 300;
   font-size: 16px;
+  outline: 0!important;
+  box-sizing: border-box;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .blue_sec{
   float: left;
   width: 100%;
